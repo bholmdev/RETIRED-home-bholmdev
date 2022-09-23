@@ -1,11 +1,6 @@
 body {
     background-color: beige;
-}
-
-#introduction {
-    text-align: center;
-    text-align: justify;
-    width: 500px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #sideBar {
@@ -36,12 +31,18 @@ body {
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     width: 500px;
+    font-size: 25px;
   }
 
   #journey {
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     width: 500px;
+    font-size: 20px;
+  }
+
+  #journeyList, li {
+    font-size: 20px;
   }
 
   footer {
