@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#sideBar {
+.sideBar {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -15,7 +15,7 @@ body {
     padding-top: 20px;
   }
 
-  #sideBar a {
+  .sideBar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -23,11 +23,11 @@ body {
     display: block;
   }
 
-  #sideBar a:hover {
+  .sideBar a:hover {
     color: #f1f1f1;
   }
 
-  #main {
+  .main {
     margin-left: 200px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     width: 500px;
