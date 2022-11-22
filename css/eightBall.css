@@ -1,0 +1,7 @@
+body {
+    background-image: url("../img/magician.jpg");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+}

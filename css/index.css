@@ -1,51 +1,33 @@
 body {
-    background-color: beige;
-    font-family: 'Raleway', sans-serif;
+  background-color: beige;
 }
 
-.sideBar {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 200px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
+.navbar-brand {
+  color: gray;
+}
 
-  .sideBar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
+.nav-link {
+  color: gray;
+}
 
-  .sideBar a:hover {
-    color: #f1f1f1;
-  }
+/* .navbar-nav > .active > a {
+  
+} */
 
-  .main {
-    margin-left: 200px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-    width: 500px;
-    font-size: 25px;
-  }
+.navbar-nav a:visited {
+  color: gray;
+}
 
-  #journey {
-    margin-left: 200px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-    width: 500px;
-    font-size: 20px;
-  }
+.navbar-nav > .disabled > a {
+  color: gray;
+}
 
-  #journeyList, li {
-    font-size: 20px;
-  }
-
-  footer {
-    margin-left: 200px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
