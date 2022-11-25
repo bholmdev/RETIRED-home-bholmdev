@@ -1,22 +1,13 @@
-/* .custom__banner {
-  background-color: #3f7cac;
-} */
-
 .custom__navbar {
   background-color: #087e8b;
 }
 
 body {
-  padding-top: 65px;
   background-color: #bfd7ea;
 }
 
-#aboutMeParagraph {
-  margin-left: 35px;
-}
-
 ul.journeyList {
-  list-style-type: "-     ";
+  list-style-type: "-  ";
 }
 
 a {
@@ -27,6 +18,13 @@ i {
   margin-right: 10px;
 }
 
+.carousel-caption {
+  background-color: #087e8b;
+  border-radius: 3px;
+  color: black;
+}
+
 .custom__footer {
+  margin-left: 0px;
   background-color: #087e8b;
 }
