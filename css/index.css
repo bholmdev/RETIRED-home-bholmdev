@@ -3,6 +3,7 @@
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   background-color: #bfd7ea;
 }
 
@@ -25,6 +26,6 @@ i {
 }
 
 .custom__footer {
-  margin-left: 0px;
   background-color: #087e8b;
+  padding: 0 15px;
 }
