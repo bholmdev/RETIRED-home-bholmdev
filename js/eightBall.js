@@ -6,7 +6,7 @@ function eightBall() {
     if (name === null) {
         return;
     }
-    let question = prompt(`Welcome, what is your question?`);
+    let question = prompt(`Welcome, ${name} what is your question?`);
     if (question === null) {
         return;
     }
