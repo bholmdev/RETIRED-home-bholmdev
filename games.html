@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
-    <title>Brandon's Magic 8-Ball Game</title>
+    <title>Games</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-sm custom__navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">BHolmDev</a>
@@ -30,19 +30,34 @@
         </div>
     </nav>
 
+    <!--Magic 8 Ball-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6">
                 <h1>MAGIC 8-BALL</h1>
+                <p>Ask me a question and I will give you an answer.</p>
                 <button type="button" class="btn btn-success" onclick="eightBall()">Play Game</button>
             </div>
         </div>
     </div>
+    <hr>
 
-    <footer class="custom__footer fixed-bottom">
+    <!--Number Guessing Game-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Number Guessing Game</h1>
+                <p>Welcome to Super Number Guesser 64! Choose a maximum range number. The computer will create a random number from one to the number you choose. Guess numbers until you guess the number the computer has chosen.</p>
+                <button type="button" class="btn btn-success" onclick="guessGame()">Play Game</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <footer class="mt-auto">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row row-content">
+                <div class="col-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li>
@@ -53,7 +68,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6" id="contactInfo">
+                <div class="col-3" id="contactInfo">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="https://www.linkedin.com/in/brandon-holman-dev/"><i class=" fa-2x fa-brands fa-linkedin"></i></a>
                 </div>
@@ -69,5 +84,6 @@
     <script src="https://kit.fontawesome.com/191354c916.js" crossorigin="anonymous"></script>
 
     <script src="js/eightBall.js"></script>
+    <script src="js/numberGuessingGame.js"></script>
 </body>
 </html>

@@ -31,8 +31,9 @@ hr {
   color: black;
 }
 
-.custom__footer {
-  margin-top: 35px;
-  padding-top: 35px;
+footer {
+  height: 100%;
   background-color: #087e8b;
+  margin-top: 35px;
+  padding: 35px 35px 0 35px;
 }
